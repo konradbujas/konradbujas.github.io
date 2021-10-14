@@ -5,22 +5,26 @@
 
 body {
   background: rgb(107, 177, 177);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
+  // color: #fff;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // min-height: 100vh;
+  // text-align: center;
 }
 
-.paragraph{
-  color: rgb(14, 27, 54);
-  font-size: 20px;
-  font-weight: 700;
+// .paragraph{
+//   color: rgb(14, 27, 54);
+//   font-size: 20px;
+//   font-weight: 700;
   
-  margin: 32px auto;
-  &--special{
-    font-style: italic;
-    color: #fff;
-  }
-}
+//   margin: 32px auto;
+//   &--special{
+//     font-style: italic;
+//     color: #fff;
+//   }
+// }
+
+// .skills__section--emoji{
+//   border:rgb(14, 27, 54);
+// }
