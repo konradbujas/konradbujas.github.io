@@ -28,3 +28,12 @@ body {
 // .skills__section--emoji{
 //   border:rgb(14, 27, 54);
 // }
+
+
+.skills-section{
+  &__icon{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+  }
+}
