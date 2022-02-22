@@ -1,139 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konrad Bujas - portfolio</title>
+    <meta name="description" content="Konrad Bujas: skills & projects" />
+    <!-- Title -->
+    <meta property="og:title" content="Konrad Bujas - portfolio" />
+    <!-- OPTIONAL description. 2-4 sentences. -->
+    <meta property="og:description" content="Konrad Bujas: skills & projects" />
+    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+    <meta property="og:url" content="https://konradbujas.github.io" />
+    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+    <meta
+      property="og:image"
+      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Konrad Bujas - portfolio</title>
-  <meta name="description" content="Konrad Bujas: skills & projects" />
-  <!-- Title -->
-  <meta property="og:title" content="Konrad Bujas - portfolio" />
-  <!-- OPTIONAL description. 2-4 sentences. -->
-  <meta property="og:description" content="Konrad Bujas: skills & projects" />
-  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-  <meta property="og:url" content="https://konradbujas.github.io" />
-  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
-
-
-</head>
-
-<body>
-  <main>
-    <!-- <h1 class="main_header">Hello Man! ;)</h1>
+  <body>
+    <main>
+      <!-- <h1 class="main_header">Hello Man! ;)</h1>
     <p class="paragraph">this site is in rebuilding now</p>
     <p class="paragraph paragraph--special">stay tune...</p> -->
 
-    <section class="hero">
-      <div class="hero__image-container">
-        <img class="hero__image" src='/src/assets/img/konrad.jpg' alt="Konrad's photo" />
-        <span class="hero__hello">Hey there! 👋</span>
-      </div>
-      <div class="hero__description">
-        <h1 class="hero__header">My name is Konrad and I would to be a <span class="hero__special">Junior Frontend
-            Developer.</span> Much
-          way before me, but I'm actual learning JavaScript and next React ;)
-        </h1>
-        <p class="hero__paragraph">
-          You might be interested in checking the list of <a href="#skills">my skills</a>. Don’t forget to have a glimpse at <a href="#projects">my projects</a>.
-          Currently I’m looking for a new challenges so if you have one - <a href="#contact">contact me</a> 😊
-        </p>
-
-        <p class="hero__story">
-          I started my Junior Developer Wannabe tour near about a year ago ;) but it's not my first time. Previously I interested new technology and aplications but only as user. Last I needed some additional features in blog or software which I use. I learned new skills and on the occasion was born this thought: I wanna be a developer ;D
-        </p>
-
-        <a class="hero__contact" href="mailto:konradbuu@gmail.com">konradbuu@gmail.com</a>
-      </div>
-
-    </section>
-
-    <section class="skills" id="skills">
-      <h2 class="skills__header">My skills</h2>
-
-      <article class="skills-section">
-        <span class="skills-section__emoji">💪</span>
-        <h3 class="skill-section__header">Working knowledge</h3>
-        <ul class="skill-list">
-          <li class="skill-list__item">Semantic HTML5</li>
-          <li class="skill-list__item">BEM Structure</li>
-          <li class="skill-list__item">JS: Local storage</li>
-          <li class="skill-list__item">CSS Grid</li>
-          <li class="skill-list__item">Flexbox</li>
-          <li class="skill-list__item">Forms</li>
-          <li class="skill-list__item">JS: DOM manipulations</li>
-          <li class="skill-list__item">SASS</li>
-          <li class="skill-list__item">Markdown</li>
-          <li class="skill-list__item">Figma</li>
-        </ul>
-      </article>
-
-
-      <article class="skills-section">
-        <span class="skills-section__emoji">🤔</span>
-        <h3 class="skill-section__header">Know about something</h3>
-        <ul class="skill-list">
-          <li class="skill-list__item">JavaScript ES6 + features</li>
-          <li class="skill-list__item">CSS animations</li>
-          <li class="skill-list__item">Working with API</li>
-          <li class="skill-list__item">NPM Scripts</li>
-          <li class="skill-list__item">PWA: Progressive Web Apps</li>
-          <li class="skill-list__item">Git</li>
-          <li class="skill-list__item">Accesibillity</li>
-        </ul>
-      </article>
-
-
-      <article class="skills-section">
-        <span class="skills-section__emoji">🎓</span>
-        <h3 class="skill-section__header">Want to learn</h3>
-        <ul class="skill-list">
-          <li class="skill-list__item">React</li>
-          <li class="skill-list__item">Node</li>
-          <li class="skill-list__item">Linux Platform</li>
-          <li class="skill-list__item">TypeScript</li>
-        </ul>
-      </article>
-
-    </section>
-
-    <section class="projects">
-      <h2 class="projects__header">Recent projects</h2>
-      <p class="projects__description">
-        I started about a year ago. Since then, I've build some projects. Here's the list of things I've done so far.  
-      </p>
-      
-      <div class="project-grid">
-        <article class="project">
-          <h3 class="project__title">
-            <span>project</span> <span>homepage</span>
-          </h3>
-          <p>
-            <span>description:</span>
-            <span>my homepage</span>
+      <section class="hero">
+        <div class="hero__image-container">
+          <img
+            class="hero__image"
+            src="/src/assets/img/konrad.jpg"
+            alt="Konrad's photo"
+          />
+          <span class="hero__hello">Hey there! 👋</span>
+        </div>
+        <div class="hero__description">
+          <h1 class="hero__header">
+            My name is Konrad and I would to be a
+            <span class="hero__special">Junior Frontend Developer.</span> Much
+            way before me, but I'm actual learning JavaScript and next React ;)
+          </h1>
+          <p class="hero__paragraph">
+            You might be interested in checking the list of
+            <a href="#skills">my skills</a>. Don’t forget to have a glimpse at
+            <a href="#projects">my projects</a>. Currently I’m looking for a new
+            challenges so if you have one - <a href="#contact">contact me</a> 😊
           </p>
 
-          <p>
-            <span>demo:</span>
-            <span>&lt;<a href='#' title="my homepage - demo">see_here</a>&gt;</span>
+          <p class="hero__story">
+            I started my Junior Developer Wannabe tour near about a year ago ;)
+            but it's not my first time. Previously I interested new technology
+            and aplications but only as user. Last I needed some additional
+            features in blog or software which I use. I learned new skills and
+            on the occasion was born this thought: I wanna be a developer ;D
           </p>
 
-          <p>
-            <span>github:</span>
-            <span>&lt;<a href='#' title="my homepage - github">source_code</a>&gt;</span>
-          </p>
+          <a class="hero__contact" href="mailto:konradbuu@gmail.com"
+            >konradbuu@gmail.com</a
+          >
+        </div>
+      </section>
 
+      <section class="skills" id="skills">
+        <h2 class="skills__header">My skills</h2>
+
+        <article class="skills-section">
+          <span class="skills-section__emoji">💪</span>
+          <h3 class="skill-section__header">Working knowledge</h3>
+          <ul class="skill-list">
+            <li class="skill-list__item">Semantic HTML5</li>
+            <li class="skill-list__item">BEM Structure</li>
+            <li class="skill-list__item">JS: Local storage</li>
+            <li class="skill-list__item">CSS Grid</li>
+            <li class="skill-list__item">Flexbox</li>
+            <li class="skill-list__item">Forms</li>
+            <li class="skill-list__item">JS: DOM manipulations</li>
+            <li class="skill-list__item">SASS</li>
+            <li class="skill-list__item">Markdown</li>
+            <li class="skill-list__item">Figma</li>
+          </ul>
         </article>
 
+        <article class="skills-section">
+          <span class="skills-section__emoji">🤔</span>
+          <h3 class="skill-section__header">Know about something</h3>
+          <ul class="skill-list">
+            <li class="skill-list__item">JavaScript ES6 + features</li>
+            <li class="skill-list__item">CSS animations</li>
+            <li class="skill-list__item">Working with API</li>
+            <li class="skill-list__item">NPM Scripts</li>
+            <li class="skill-list__item">PWA: Progressive Web Apps</li>
+            <li class="skill-list__item">Git</li>
+            <li class="skill-list__item">Accesibillity</li>
+          </ul>
+        </article>
 
-      </div>
+        <article class="skills-section">
+          <span class="skills-section__emoji">🎓</span>
+          <h3 class="skill-section__header">Want to learn</h3>
+          <ul class="skill-list">
+            <li class="skill-list__item">React</li>
+            <li class="skill-list__item">Node</li>
+            <li class="skill-list__item">Linux Platform</li>
+            <li class="skill-list__item">TypeScript</li>
+          </ul>
+        </article>
+      </section>
 
-      
-    </section>
+      <section class="projects">
+        <h2 class="projects__header">Recent projects</h2>
+        <p class="projects__description">
+          I started about a year ago. Since then, I've build some projects.
+          Here's the list of things I've done so far.
+        </p>
 
+        <div class="project-grid">
+          <article class="project">
+            <h3 class="project__title">
+              <span>project</span> <span>homepage</span>
+            </h3>
+            <p>
+              <span>description:</span>
+              <span>my homepage</span>
+            </p>
 
+            <p>
+              <span>demo:</span>
+              <span
+                >&lt;<a href="#" title="my homepage - demo">see_here</a
+                >&gt;</span
+              >
+            </p>
 
-  </main>
-</body>
+            <p>
+              <span>github:</span>
+              <span
+                >&lt;<a href="#" title="my homepage - github">source_code</a
+                >&gt;</span
+              >
+            </p>
+          </article>
+        </div>
+      </section>
 
+      <section class="contact" id="contact">
+        <h2 class="contact__header">Contact me</h2>
+        <p class="contact__description">
+          I'm open for new opportunities. If you have one for me we should talk!
+        </p>
+        <div class="contact__links">
+          <ul class="socials">
+            <li class="socials__item">
+              <a class="socials__link" href="https://github.com/konradbujas"
+                ><img class="socials__icon" alt="Konrad github"
+              /></a>
+            </li>
+
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href="https://www.linkedin.com/in/konradbujas"
+                ><img class="socials__icon" alt="Konrad linkedin"
+              /></a>
+            </li>
+          </ul>
+
+          <a class="contact__mail" href="mailto:konradbuu@gmail.com"
+            >konradbuu@gmail.com</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
