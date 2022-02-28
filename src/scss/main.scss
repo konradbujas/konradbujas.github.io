@@ -1,39 +1,21 @@
 @import "~normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;600&display=swap');
 
 @import "_variables";
-// @import "modules/hello.scss";
+@import "modules/hero.scss";
 
-body {
-  background: #fff;
-  // color: #fff;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // min-height: 100vh;
-  // text-align: center;
+
+html{
+  box-sizing: border-box;
 }
 
-// .paragraph{
-//   color: rgb(14, 27, 54);
-//   font-size: 20px;
-//   font-weight: 700;
-  
-//   margin: 32px auto;
-//   &--special{
-//     font-style: italic;
-//     color: #fff;
-//   }
-// }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-// .skills__section--emoji{
-//   border:rgb(14, 27, 54);
-// }
-
-
-.skills-section{
-  &__icon{
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
-  }
+body {
+  font-family: Nunito;
+  color: $text;
 }
