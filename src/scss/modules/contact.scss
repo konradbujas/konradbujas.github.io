@@ -14,7 +14,7 @@
     line-height: 48px;
     text-align: center;
     color: $textDark;
-    margin: 0 0 32px;
+    margin: 0 auto 32px;
   }
   &__links {
       text-align: center;
@@ -29,5 +29,9 @@
     font-size: 20px;
     line-height: 40px;
     text-decoration: none;
+    @media (min-width: $desktop) {
+        margin: 22px 0 32px;
+    }
+    
 }
 }
