@@ -1,12 +1,18 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://konradbujas.github.io/og.png)
 
-# WTF Webpack Starter Kit 
+# Konrad Bujas - Junior Frontend Developer 
 
-Simple toolkit for your static websites development.
+My first simple portfolio website.
 
-## How to use it?
+## Tools & Tricks
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- WTF Webpack Starterkit
+- HTML + CSS + JS
+- Github API - automatic actualization projects list ;)
+- CSS Grid
+- Responsive Web Design, mobile first, breakpoints (mobile, tablet, desktop)
+- CSS variables
+- animation
 
 ## Available scripts
 
