@@ -1,6 +1,8 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("Hello, I'm Konrad. Nice to meet you 🚀");
+
+
 
 // project-grid--js
 
@@ -34,6 +36,8 @@ fetch(
             <span class="project__label">demo:</span>
             <span
               >&lt;<a
+                target="_blank"
+                rel="noopener noreferrer"
                 class="project__link"
                 href="${homepage}"
                 title="${name} - demo"
@@ -46,6 +50,8 @@ fetch(
             <span class="project__label">github:</span>
             <span
               >&lt;<a
+                target="_blank"
+                rel="noopener noreferrer"
                 class="project__link"
                 href="${html_url}"
                 title="${name} - github"
