@@ -1,134 +1,138 @@
 .hero {
-    padding: 74px 16px 88px;
-    @media (min-width: $tablet) {
-        max-width: 768px;
-        margin: 0 auto;
-    } 
+  padding: 74px 16px 88px;
+  @media (min-width: $tablet) {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop) {
+    max-width: 100%;
+  }
+
+  &__bubble {
+    position: absolute;
+    left: calc(50% + 90px);
+    top: -26px;
+  }
+  &__contact {
+    border-radius: 64px;
+    color: #fff;
+    background: $lightBlue;
+    display: inline-block;
+    padding: 4px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+  }
+  &__description {
+    text-align: center;
+    @media (min-width: $desktop) {
+      max-width: 786px;
+      margin: 0 auto;
+      position: relative;
+      &::before,
+      &::after {
+        content: "";
+
+        position: absolute;
+        display: block;
+        top: 0;
+      }
+      &::before {
+        width: 82.94px;
+        height: 254.88px;
+        background: url("../assets/img/hero_left.svg");
+        right: 100%;
+      }
+      &::after {
+        width: 83.23px;
+        height: 254.88px;
+        background: url("../assets/img/hero_right.svg");
+        left: 100%;
+      }
+    }
+  }
+  &__header {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: $textDark;
+    margin: 0;
+    @media (min-width: $desktop) {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+  &__hello {
+    display: none;
+    @media (min-width: $desktop) {
+      display: block;
+      background: $blue;
+      color: #fff;
+      padding: 16px 19px;
+      border-radius: 16px;
+      font-weight: bold;
+      font-size: 32px;
+      position: relative;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 32px;
+        width: 17.42px;
+        height: 22.66px;
+        background: url("../assets/img/Speech_cloud.svg");
+      }
+    }
+  }
+  &__image {
+    box-sizing: content-box;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 16px solid #f6f9fd;
 
     @media (min-width: $desktop) {
-        max-width: 100%;
+      width: 178px;
+      height: 178px;
+      border: 24px solid #f6f9fd;
     }
+  }
+  &__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
 
-    &__bubble {
-        position: absolute;
-        left: calc(50% + 90px);
-        top: -26px;
+  &__link {
+    font-weight: bold;
+    color: $lightBlue;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  &__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+    @media (min-width: $desktop) {
+      font-size: 20px;
+      line-height: 40px;
     }
-    &__contact {
-        border-radius: 64px;
-        color: #fff;
-        background: $lightBlue;
-        display: inline-block;
-        padding: 4px 24px;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 40px;
-        text-decoration: none;
+  }
+  &__special {
+    color: $blue;
+    @media (min-width: $desktop) {
+      white-space: nowrap;
     }
-    &__description {
-        text-align: center;
-        @media (min-width: $desktop) {
-            max-width: 786px;
-            margin: 0 auto;
-            position: relative;
-            &::before, &::after {
-                content: '';
-                
-                position: absolute;
-                display: block;
-                top: 0;
-            }
-            &::before {
-                width: 94px;
-                height: 471px;
-                background: url('../assets/img/hero_left.svg');
-                right: 100%;
-            }
-            &::after {
-                width: 90px;
-                height: 471px;
-                background: url('../assets/img/hero_right.svg');
-                left: 100%;
-            }
-        }
+    &--paragraph {
+      color: $blue;
+      font-weight: bold;
     }
-    &__header {
-        font-size: 26px;
-        line-height: 32px;
-        text-align: center;
-        color: $textDark;
-        margin: 0;
-        @media (min-width: $desktop) {
-            font-size: 32px;
-            line-height: 40px;
-        }
-    }
-    &__hello {
-        display: none;
-        @media (min-width: $desktop) {
-            display: block;
-            background: $blue;
-            color: #fff;
-            padding: 16px 19px;
-            border-radius: 16px;
-            font-weight: bold;
-            font-size: 32px;
-            position: relative;
-            &::after {
-                content: '';
-                display: block;
-                position: absolute;
-                top: 100%;
-                left: 32px;
-                width: 17.42px;
-                height: 22.66px;
-                background: url('../assets/img/Speech_cloud.svg');
-            }
-        }
-    }
-    &__image {
-        box-sizing: content-box;
-        width: 96px;
-        height: 96px;
-        border-radius: 50%;
-        margin-bottom: 40px;
-        border: 16px solid #f6f9fd;
-
-        @media (min-width: $desktop) {
-            width: 178px;
-            height: 178px;
-            border: 24px solid #f6f9fd;
-        }
-    }
-    &__image-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-    
-    &__link {
-        font-weight: bold;
-        color: $lightBlue;
-        text-decoration: none;
-        white-space: nowrap;
-    }
-    &__paragraph {
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 32px;
-        text-align: center;
-        margin-bottom: 48px;
-        @media (min-width: $desktop) {
-            font-size: 20px;
-            line-height: 40px;
-        }
-    }
-    &__special {
-        color: $blue;
-        @media (min-width: $desktop) {
-            white-space: nowrap;
-        }
-        
-    }
+  }
 }

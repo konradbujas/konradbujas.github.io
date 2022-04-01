@@ -1,0 +1,53 @@
+.story {
+    background: $story;
+    padding: 74px 16px 88px;
+    @media (min-width: $tablet) {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  
+    @media (min-width: $desktop) {
+      max-width: 100%;
+    }
+    &__description {
+      text-align: center;
+      @media (min-width: $desktop) {
+        max-width: 786px;
+        margin: 0 auto;
+        position: relative;
+        
+      }
+    }
+    &__header {
+      font-size: 26px;
+      line-height: 32px;
+      text-align: center;
+      color: $storyHeader;
+      margin: 0;
+      @media (min-width: $desktop) {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+    &__paragraph {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      @media (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 40px;
+      }
+    }
+    &__special {
+      color: $blue;
+      @media (min-width: $desktop) {
+        white-space: nowrap;
+      }
+      &--paragraph {
+        color: $blue;
+        font-weight: bold;
+      }
+    }
+  }
+  
