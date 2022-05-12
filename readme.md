@@ -14,6 +14,15 @@ My first simple portfolio website.
 - CSS variables
 - animation
 
+## How to use ?
+
+1. Install Node.js
+ 
+2. Clone repository to your computer
+ 
+3. Go to the project directory in console and type 'npm install'
+
+
 ## Available scripts
 
 `npm run start` - runs development mode
