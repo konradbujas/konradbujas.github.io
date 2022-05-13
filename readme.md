@@ -20,7 +20,7 @@ My first simple portfolio website.
  
 2. Clone repository to your computer
  
-3. Go to the project directory in console and type 'npm install'
+3. Go to the project directory in console and type `npm install`
 
 
 ## Available scripts
