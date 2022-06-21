@@ -22,6 +22,12 @@ My first simple portfolio website.
  
 3. Go to the project directory in console and type `npm install`
 
+4. Next type `npm run start` in console in project directory
+
+5. Open localhost http://localhost:8080/ on your browser
+
+6. Enjoy!
+
 
 ## Available scripts
 
